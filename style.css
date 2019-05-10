@@ -6,4 +6,14 @@ body{
 img{
     width: 100%;
     vertical-align: top;
+    /* display: none; */
+}
+
+img#pic{
+    display: none;
+}
+@media screen and (max-width: 768px){
+ img#pic{
+     display: block;
+ }
 }
